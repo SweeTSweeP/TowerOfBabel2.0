@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 19375756}
   - component: {fileID: 3343124}
   - component: {fileID: 2322364}
+  - component: {fileID: 3654230169777237382}
   m_Layer: 0
   m_Name: bush03
   m_TagString: Untagged
@@ -92,6 +93,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3654230169777237382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7ff100c231288488f701cd30eaeaac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!21 &2114920
 Material:
   serializedVersion: 6
@@ -124,6 +137,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Cutoff: 0.3
     - _SquashAmount: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
